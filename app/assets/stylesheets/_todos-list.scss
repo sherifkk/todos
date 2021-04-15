@@ -1,0 +1,30 @@
+.todos-task__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.todos-task__text {
+  margin-left: 24px;
+  padding: 0;
+}
+.btn,
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active:focus,
+.btn.active.focus {
+  outline: 0;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn-delete {
+  width: 30px;
+  height: 25px;
+  border: none;
+  float: right;
+  padding: 5px;
+}
